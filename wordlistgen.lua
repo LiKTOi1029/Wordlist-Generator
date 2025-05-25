@@ -12,7 +12,20 @@ function FileReader()
 			ParsingText = ParsingText..AllText:sub(num1,num1)
 		end
 	end
-	print("the full text is "..table.concat(SavedText))
+	print("the full text is "..table.concat(SavedText, " "))
+	return WordLister(SavedText)
+end
+function WordLister(input)
+	local ParsingTable = {}
+	for num2 in ipairs(input) do
+		if input[2] end
+	end
+end
+function ListIterator()
+	
+end
+function FilePutter()
+	
 end
 repeat
 	io.write("Type your desired input into \"input.txt\"\nCopy the output from \"output.txt\" and use it!\nType anything to start\n")
